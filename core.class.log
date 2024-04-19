@@ -1,0 +1,76 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122627275@s.whatsapp.net',
+    fromMe: false,
+    id: '3A0D3860A086DB085022',
+    participant: undefined
+  },
+  messageTimestamp: 1708117508,
+  pushName: 'Ariel Mirra',
+  broadcast: false,
+  message: Message {
+    conversation: 'hello',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hello',
+  from: '5491122627275'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f9637ef2-eb2c-496a-8748-cd227637881a',
+  keyword: 'key_466a74d5-b949-48d6-b532-f0e5e19255f9',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '1759e098a431940b440e65c9a0a2ded8'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122627275@s.whatsapp.net',
+    fromMe: false,
+    id: '3AF78A7B5EDDDCBAB63E',
+    participant: undefined
+  },
+  messageTimestamp: 1708120952,
+  pushName: 'Ariel Mirra',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5491122627275'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f9637ef2-eb2c-496a-8748-cd227637881a',
+  keyword: 'key_466a74d5-b949-48d6-b532-f0e5e19255f9',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '1759e098a431940b440e65c9a0a2ded8'
+}

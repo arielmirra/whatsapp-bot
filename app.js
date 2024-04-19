@@ -5,18 +5,18 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const MockAdapter = require('@bot-whatsapp/database/mock');
 
 const welcomeFlow = require('./flows/welcome.flow');
-const vendedorFlow = require('./flows/vendedor.flow');
-const expertoFlow = require('./flows/experto.flow');
-const pagarFlow = require('./flows/pagar.flow');
+const informacionFlow = require('./flows/informacion.flow');
+const detallesFlow = require('./flows/detalles.flow');
+const mainFlow = require('./flows/main.flow');
 const ServerAPI = require('./http');
 
 const main = async () => {
 	const adapterDB = new MockAdapter();
 	const adapterFlow = createFlow([
 		welcomeFlow,
-		vendedorFlow,
-		expertoFlow,
-		pagarFlow,
+		informacionFlow,
+		detallesFlow,
+		mainFlow,
 	]);
 
 	const adapterProvider = createProvider(BaileysProvider);

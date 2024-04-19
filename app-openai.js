@@ -5,7 +5,7 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const MockAdapter = require('@bot-whatsapp/database/mock');
 
 const welcomeFlow = require('./flows/welcome.flow');
-const vendedorFlow = require('./flows/vendedor.flow');
+const vendedorFlow = require('./flows/informacion.flow');
 const expertoFlow = require('./flows/experto.flow');
 const pagarFlow = require('./flows/pagar.flow');
 
